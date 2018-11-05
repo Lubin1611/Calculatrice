@@ -1,0 +1,46 @@
+
+h1 {
+    text-align: center;
+}
+
+#aleatoire {
+    border: 1px black solid;
+    position: relative;
+    margin-top: 15%;
+    left: 44%;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#placement {
+
+    position: relative;
+    margin-top: 5%;
+    left: 35%;
+    width: 500px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#solution {
+    border: 1px black solid;
+    position: relative;
+    margin-top: 5%;
+    left: 39%;
+    width: 400px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#bon {
+    border: 1px black solid;
+    position: absolute;
+    top: 5%;
+    width: 200px;
+    height: 300px;
+    left : 1200px;
+}
