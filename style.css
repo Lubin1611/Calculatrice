@@ -43,4 +43,19 @@ h1 {
     width: 200px;
     height: 300px;
     left : 80%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#recompense {
+    border: 1px black solid;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 300px;
+    left : 80%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
 }

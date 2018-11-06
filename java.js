@@ -4,6 +4,7 @@ document.getElementById("aleatoire").innerHTML = chiffre1 + " x "  + chiffre2;
 var resultatJoueur = 0;
 var resultatOrdi = chiffre1 * chiffre2;
 var bonsResultats = 0;
+var bonsPoints = 0;
 
 function calc() {
 
@@ -18,6 +19,12 @@ function calc() {
         bonsResultats ++;
         document.getElementById("bon").innerHTML = "Vous avez " + bonsResultats + " bons resultats";
         document.getElementById("aleatoire").innerHTML = chiffre1 + " x " + chiffre2;
+
+        if (bonsResultats == 5) {
+            bonsPoints = bonsPoints + 10;
+            document.getElementById("recompense").innerHTML = "Bravo, vous avez " + bonsPoints + " points";
+            consol.log(bonsResultats);
+        }
 
     } else {
 

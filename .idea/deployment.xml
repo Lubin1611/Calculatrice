@@ -2,24 +2,10 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="exojs">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="files.000webhost.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="testjs">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Deviner_chiffre" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
