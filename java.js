@@ -14,6 +14,7 @@ function calc() {
         document.getElementById("solution").innerHTML = "Bravo, vous avez trouvé la solution !";
         chiffre1 = Math.floor(Math.random() * 10) + 1;
         chiffre2 = Math.floor(Math.random() * 10) + 1;
+        resultatOrdi = chiffre1 * chiffre2;
         bonsResultats ++;
         document.getElementById("bon").innerHTML = "Vous avez " + bonsResultats + " bons resultats";
         document.getElementById("aleatoire").innerHTML = chiffre1 + " x " + chiffre2;
